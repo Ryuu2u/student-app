@@ -9,10 +9,10 @@ import styles from './styles/AppStyles';
 export default function App() {
   // ข้อมูลนักเรียน
   const [students, setStudents] = useState([
-    { id: 1, name: 'สมชาย ใจดี', grade: 'ม.3', gpa: 3.75, status: 'active' },
-    { id: 2, name: 'สมหญิง รักเรียน', grade: 'ม.3', gpa: 3.95, status: 'active' },
-    { id: 3, name: 'วิชัย ขยัน', grade: 'ม.3', gpa: 3.50, status: 'inactive' },
-    { id: 4, name: 'ประภา เก่ง', grade: 'ม.3', gpa: 4.00, status: 'active' },
+    { id: 1, name: 'สมชาย ใจร้าย', grade: 'ม.3', gpa: 3.75, status: 'active' },
+    { id: 2, name: 'สมหญิง ไม่รักเรียน', grade: 'ม.3', gpa: 3.95, status: 'active' },
+    { id: 3, name: 'วิชัย ไม่ขยัน', grade: 'ม.3', gpa: 3.50, status: 'inactive' },
+    { id: 4, name: 'ประภา ไม่เก่ง', grade: 'ม.3', gpa: 4.00, status: 'active' },
   ]);
 
   // ฟังก์ชันสลับสถานะนักเรียน
